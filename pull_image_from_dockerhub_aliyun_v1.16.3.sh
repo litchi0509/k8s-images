@@ -5,6 +5,7 @@ gcr_name=k8s.gcr.io
 myhub_name=registry.cn-hangzhou.aliyuncs.com/google_containers
 # define images 
 images=(
+ kubernetes-dashboard-amd64:v1.10.1
  kube-apiserver:v1.16.3
  kube-controller-manager:v1.16.3
  kube-scheduler:v1.16.3
