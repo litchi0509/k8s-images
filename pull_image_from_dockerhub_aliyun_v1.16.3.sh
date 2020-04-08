@@ -6,13 +6,13 @@ myhub_name=registry.cn-hangzhou.aliyuncs.com/google_containers
 # define images 
 images=(
  kubernetes-dashboard-amd64:v1.10.1
- kube-apiserver:v1.16.3
- kube-controller-manager:v1.16.3
- kube-scheduler:v1.16.3
- kube-proxy:v1.16.3
- pause:3.1
- etcd:3.3.15-0
- coredns:1.6.2
+ kube-apiserver:v1.18.0
+ kube-controller-manager:v1.18.0
+ kube-scheduler:v1.18.0
+ kube-proxy:v1.18.0
+ pause:3.2
+ etcd:3.4.3-0
+ coredns:1.6.7
 )
 
 for image in ${images[@]}; do 
